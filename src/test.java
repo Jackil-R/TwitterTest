@@ -24,10 +24,10 @@ import twitter4j.conf.ConfigurationBuilder;
 
 //Mention - count number of 
 public class test {
-	String consumerKey = "cqIz0ukgzOoEWSuHcbWWg"; 
-	String consumerSecret = "FKjU1uG6iniXpO5RBoH4mx67zNrcJX7y1eXVRlE6M"; 
-	String accessToken = "2230426879-BfpomKLGZuZ31uvCT1tJDvNPFi8sePjG0laSenO"; 
-	String accessTokenSecret = "jE0dTpK8WzYujTdn3ZepaqyyvCpiHvJTajqT7Z00YXOQk";
+	String consumerKey = ""; 
+	String consumerSecret = ""; 
+	String accessToken = ""; 
+	String accessTokenSecret = "";
 
 	public test() throws InterruptedException, TwitterException, IOException {
 		Twitter twitter = new TwitterFactory(
